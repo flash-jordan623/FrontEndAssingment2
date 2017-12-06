@@ -1,3 +1,11 @@
-"# FrontEndAssingment2"
+# FrontEndAssingment2
 
-""#ReadMe file updated"
+##The Assignment
+
+##The code
+
+##The Design
+
+##Issues
+
+##Extras
