@@ -1,1 +1,3 @@
-"# FrontEndAssingment2" 
+"# FrontEndAssingment2"
+
+#ReadMe file updated.
