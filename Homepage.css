@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lora';font-size: 20px;font-weight: bold;
+  font-family:"Courier New", Courier, monospace;font-size: 20px;
 background-color: #e0e0d1;
 max-width: 1500px;
 max-height: 300px;
@@ -10,7 +10,6 @@ div.Title {
   text-align: center;
   margin-top: -30px;
   font-size: 18px;
-  font-weight: bold;
   float: left;
 
 }
@@ -18,12 +17,14 @@ div.Title {
 div.Title h1{
   margin-top: -50px;
   font-size: 35px;
+  font-weight: normal;
 }
 
 div.Title h2 {
   float: left;
   margin-top: -130px;
 font-size: 40px;
+font-weight: normal;
 }
 
 img.img {
@@ -75,7 +76,21 @@ padding-right: 350px;
 #images {
   margin-left: 723px;
 margin-top: 110px;
-border: 4px dashed black;
+border: 2px solid black;
 padding: 10px;
 
+}
+
+#subtitle {
+  font-size: 25px;
+}
+
+#Paragraph {
+  font-size: 17px;
+  margin-top: -300px;
+}
+
+p {
+  padding-bottom: 20px;
+  margin-top: 40px;
 }
