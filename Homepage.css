@@ -66,6 +66,10 @@ padding-right: 350px;
   background-color: #ddd;
   color: black;
 }
+@media screen and (min-width: 500px) {
+
+}
+@media screen and (min-width: 900px)
 
 
 #Logo {
@@ -75,10 +79,23 @@ padding-right: 350px;
 
 #images {
   margin-left: 723px;
-margin-top: 110px;
+margin-top: 210px;
 opacity: 0.7;
 padding: 10px;
 
+}
+
+div.sitemap {
+  margin-top: 90px;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div.copyright {
+  float:right;
+  margin-left: 1200px;
+  font-size: 15px;
 }
 
 #subtitle {
