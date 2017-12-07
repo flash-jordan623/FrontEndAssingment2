@@ -80,3 +80,40 @@ div.Title h2 {
 font-size: 40px;
 font-weight: normal;
 }
+
+#tableTitle{
+  margin-top: 130px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 30px;
+
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #b3cce6;
+}
+
+#locntime {
+
+  font-size: 20px;
+  margin-top: -500px;
+  margin-left: 750px;
+}
+
+#explanation {
+  margin-left: 750px;
+  font-size: 20px;
+  margin-top: 30px;
+}
