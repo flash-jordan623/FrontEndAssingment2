@@ -26,6 +26,9 @@ div.Title h2 {
 font-size: 40px;
 font-weight: normal;
 }
+.active {
+    background-color: #336699;
+}
 
 img.img {
   opacity: 0.4;
