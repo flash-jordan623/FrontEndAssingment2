@@ -35,12 +35,30 @@
   </div>
 
 <div id="slideshow">
-  <img class="slides" src="https://www.google.co.uk/imgres?imgurl=https%3A%2F%2Fwarroom.securestate.com%2Fwp-content%2Fuploads%2F2016%2F10%2Fcoding.jpg&imgrefurl=https%3A%2F%2Fwarroom.securestate.com%2Fctf-example-coding%2F&docid=zSuMH6a2L_nJeM&tbnid=pRh2_aARmm_omM%3A&vet=10ahUKEwiIv4KZy_fXAhVQJewKHXX2BuIQMwjrASgGMAY..i&w=1438&h=809&bih=637&biw=1366&q=coding&ved=0ahUKEwiIv4KZy_fXAhVQJewKHXX2BuIQMwjrASgGMAY&iact=mrc&uact=8">
-  <img class="slides" src="https://www.google.co.uk/imgres?imgurl=https%3A%2F%2Ftctechcrunch2011.files.wordpress.com%2F2015%2F04%2Fcodecode.jpg&imgrefurl=https%3A%2F%2Ftechcrunch.com%2F2016%2F05%2F10%2Fplease-dont-learn-to-code%2F&docid=RtVUjXbrLGxJ3M&tbnid=ttEC4bUW6djp_M%3A&vet=10ahUKEwiIv4KZy_fXAhVQJewKHXX2BuIQMwjlASgAMAA..i&w=3888&h=2592&bih=637&biw=1366&q=coding&ved=0ahUKEwiIv4KZy_fXAhVQJewKHXX2BuIQMwjlASgAMAA&iact=mrc&uact=8">
-  <img class="slides" src="img_mountains.jpg">
-  <img class="slides" src="img_forest.jpg">
+  <div id="images">
+  <img class="slides" src="html.jpg">
+  <img class="slides" src="pc.jpg">
+  <img class="slides" src="pc2.jpg">
+  <img class="slides" src="code.jpg">
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 4000); // Change image every 4 seconds
+}
 
 
+</script>
 
 </div>
 
