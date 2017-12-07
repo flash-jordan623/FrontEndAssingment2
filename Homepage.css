@@ -94,6 +94,7 @@ div.sitemap {
 
 div.copyright {
   float:right;
+  margin-top: -15px;
   margin-left: 1200px;
   font-size: 15px;
 }
