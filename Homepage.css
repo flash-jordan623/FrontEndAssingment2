@@ -1,21 +1,53 @@
 body {
-  font-family: 'Lora';font-size: 20px;
+  font-family: 'Lora';font-size: 20px;font-weight: bold;
+background-color: #e0e0d1;
+max-width: 1500px;
+max-height: 300px;
 }
 
 
 div.Title {
   text-align: center;
+  margin-top: -30px;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
 
+}
+
+div.Title h1{
+  margin-top: -50px;
+  font-size: 35px;
+}
+
+div.Title h2 {
+  float: left;
+  margin-top: -130px;
+font-size: 40px;
+}
+
+img.img {
+  opacity: 0.2;
+  margin-top: -250px;
+  float: right;
+  height: 270px;
+width: 600px;
+
+}
+
+#navbars {
+  margin-top: 230px;
 }
 
 .navbar {
     background-color: #333;
     overflow: hidden;
-    padding-left: 350px;
+padding-right: 350px;
     width: 1000px;
+    margin-bottom: -200px;
+
 }
 
-/* Style the links inside the navigation bar */
 .navbar a {
     float: left;
     color: #f2f2f2;
@@ -25,17 +57,11 @@ div.Title {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .navbar a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
-.navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
 #Logo {
   text-align: center;
