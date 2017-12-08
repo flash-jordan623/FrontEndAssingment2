@@ -4,22 +4,50 @@ background-color: #e0e0d1;
 max-width: 1500px;
 max-height: 300px;
 }
+
+
+div.Title {
+  text-align: center;
+margin-top: 120px;
+  font-size: 18px;
+  float: left;
+margin-left: 10px;
+}
+
+
+div.Title h1{
+  margin-top: -40px;
+  font-size: 35px;
+  font-weight: normal;
+  margin-left: 40px;
+  text-align: center;
+}
+
+div.Title h2 {
+  float: left;
+  margin-top: -130px;
+font-size: 40px;
+font-weight: normal;
+margin-left: 40px;
+text-align: center;
+}
+.active {
+    background-color: #336699;
+}
+
 img.img {
   opacity: 0.4;
-  margin-top: -250px;
+  margin-top: -70px;
   float: right;
-  height: 270px;
-width: 600px;
+  height: 240px;
+width: 580px;
 
-}
-#subtitle {
-  font-size: 25px;
 }
 
 
 
 #navbars {
-  margin-top: 230px;
+  margin-top: 110px;
 }
 
 
@@ -29,7 +57,7 @@ width: 600px;
     overflow: hidden;
 padding-right: 350px;
     width: 1000px;
-    margin-bottom: -200px;
+margin-bottom: -210px;
 
 }
 
@@ -46,40 +74,11 @@ padding-right: 350px;
   background-color: #ddd;
   color: black;
 }
-.active {
-    background-color: #336699;
-}
 @media screen and (min-width: 500px) {
 
 }
-@media screen and (min-width: 900px){}
-
-
-#Logo {
-  text-align: center;
-  padding-top: 100px;
-}
-
-div.Title {
-  text-align: center;
-  margin-top: -30px;
-  font-size: 18px;
-  float: left;
-margin-left: 10px;
-}
-
-div.Title h1{
-  margin-top: -50px;
-  font-size: 35px;
-  font-weight: normal;
-}
-
-div.Title h2 {
-  float: left;
-  margin-top: -130px;
-font-size: 40px;
-font-weight: normal;
-}
+@media screen and (min-width: 900px)
+{}
 
 #policy {
   display: flex;
@@ -88,14 +87,14 @@ font-weight: normal;
 }
 
 #policy h2 {
-  margin-top: 120px;
-  margin-left: -360px;
+  margin-top: 210px;
+  margin-left: -410px;
 }
 
 #flex1 {
   margin-left: -240px;
   width: 300px;
-  margin-top: 160px;
+  margin-top: 270px;
 }
 
 #flex4 {
