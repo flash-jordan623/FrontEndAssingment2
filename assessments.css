@@ -1,0 +1,111 @@
+body {
+  font-family:"Courier New", Courier, monospace;font-size: 20px;
+background-color: #e0e0d1;
+max-width: 1500px;
+max-height: 300px;
+}
+img.img {
+  opacity: 0.4;
+  margin-top: -250px;
+  float: right;
+  height: 270px;
+width: 600px;
+
+}
+#subtitle {
+  font-size: 25px;
+}
+
+
+
+#navbars {
+  margin-top: 230px;
+}
+
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+padding-right: 350px;
+    width: 1000px;
+    margin-bottom: -200px;
+
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+    background-color: #336699;
+}
+@media screen and (min-width: 500px) {
+
+}
+@media screen and (min-width: 900px){}
+
+
+#Logo {
+  text-align: center;
+  padding-top: 100px;
+}
+
+div.Title {
+  text-align: center;
+  margin-top: -30px;
+  font-size: 18px;
+  float: left;
+margin-left: 10px;
+}
+
+div.Title h1{
+  margin-top: -50px;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+div.Title h2 {
+  float: left;
+  margin-top: -130px;
+font-size: 40px;
+font-weight: normal;
+}
+
+#flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+max-width: 450px;
+
+}
+
+#flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#assess1{
+  font-size: 16px;
+  margin-top: 100px;
+margin-left: -200px;
+border-right: 4px solid black;
+padding: 20px;
+}
+
+#assess2{
+float: right;
+  font-size:16px;
+  margin-left: 730px;
+  width: 600px;
+  margin-top: -980px;
+}
