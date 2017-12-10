@@ -43,19 +43,21 @@ width: 580px;
 
 a {
   text-decoration: none;
+  background-color: black;
   color: white;
+  font-size: 25px;
+}
+
+a:hover {
+  background-color: grey;
+  color: black;
 }
 
 #contents {
   margin-top: 180px;
 }
 
-button {
-  font-size: 25px;
-  font-style: italic;
-  background-color: black;
-  color: white;
-}
+
 
 li {
   padding: 20px;
