@@ -7,20 +7,22 @@
 <link id="pagestyle" rel="stylesheet" type="text/css" href="index.css"/>
 
 <!--
-ADD COMMENTS
-FIX INDENTATION -->
+Code implementation for the CSS3 animation in the left hand corner
+of each page.
+Keyframes and internal CSS3 styling used.
+-->
 <style>
 div.animation {
-  width: 40px;
- height: 40px;
- background: forestgreen;
- position: relative;
- -webkit-animation-name: block;
- -webkit-animation-duration: 2s;
- -webkit-animation-fill-mode: forwards;
- animation-name: block;
- animation-duration: 2s;
- animation-fill-mode: forwards;
+    width: 40px;
+   height: 40px;
+   background: forestgreen;
+   position: relative;
+   -webkit-animation-name: block;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-fill-mode: forwards;
+   animation-name: block;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
 }
 
 @keyframes block {
@@ -31,33 +33,53 @@ div.animation {
 </style>
 </head>
 <body>
-<div class="animation"></div>
+<div class="animation"></div> <!-- DIV class for adding animation element -->
 
 <div class="Title">
-<h2> CTEC3905 </h2>
-<h1> FRONT END WEB DEVELOPMENT  </h1>
-  </div>
+    <h2> CTEC3905 </h2>
+    <h1> FRONT END WEB DEVELOPMENT  </h1>
+</div>
 
+<!-- Navigation bar code to sit aligned at the top of the page -->
 <div id="navbars">
   <div class="navbar" id="nav">
-  <a class="active" href="index.html">Homepage</a>
-  <a href="moduleDetails.html">Module details</a>
-  <a href="assessments.html">Assessments</a>
-  <a href="policy.html">University Policy</a>
-</div>
-</div>
-
-  <div id="Logo">
-    <img class ="img" src="http://ecoconsulting.co.uk/images/html-css-js.png" alt="html css3 and java image">
+    <a class="active" href="index.html">Homepage</a>
+    <a href="moduleDetails.html">Module details</a>
+    <a href="assessments.html">Assessments</a>
+    <a href="policy.html">University Policy</a>
   </div>
+</div>
 
+<div id="Logo"> <!-- Image source for Logo included -->
+    <img class ="img" src="http://ecoconsulting.co.uk/images/html-css-js.png" alt="html css3 and java image">
+</div>
+
+<!-- collection of image sources for JavaScript image slideshow on homepage-->
 <div id="slideshow">
   <div id="images">
-  <img class="slides" src="html.jpg" alt="html code image">
-  <img class="slides" src="pc.jpg" alt="man using pc">
-  <img class="slides" src="pc2.jpg" alt="combined code and pc image">
-  <img class="slides" src="code.jpg" alt="code on screen">
+    <img class="slides" src="html.jpg" alt="html code image">
+    <img class="slides" src="pc.jpg" alt="man using pc">
+    <img class="slides" src="pc2.jpg" alt="combined code and pc image">
+    <img class="slides" src="code.jpg" alt="code on screen">
+  </div>
 </div>
+
+<!-- JavaScript element for image slideshow
+*First, set the slideIndex to 1. (First picture)
+
+Then call showDivs() to display the first image.
+
+When the user clicks one of the buttons call plusDivs().
+
+The plusDivs() function subtracts one or  adds one to the slideIndex.
+
+The showDiv() function hides (display="none") all elements with the
+class name "slides", and displays (display="block") the element with the given slideIndex.
+
+If the slideIndex is higher than the number of elements (x.length), the slideIndex is set to zero.
+
+If the slideIndex is less than 1 it is set to number of elements (x.length).* - W3Schools explanation
+-->
 <script>
 var slideIndex = 0;
 carousel();
@@ -88,18 +110,21 @@ function carousel() {
     Although they are each allocated to assigned classes,<br>
     this may vary according to demand.
   </p>
-<div id="contact">
+  <div id="contact">
   Contact:<br>
   Dave Everitt: dave.everitt@dmu.ac.uk<br>
   Fania Raczinski: fania.raczinski@dmu.ac.uk
-</div>
+  </div>
 
 </div>
+
+<!-- Links to sitemap -->
 <div class="sitemap">
-<a href="sitemap.html">  sitemap</a>
+  <a href="sitemap.html">  sitemap</a>
 </div>
+
 <div class="copyright">
-©P15187761
+  ©P15187761
 </div>
 
 
