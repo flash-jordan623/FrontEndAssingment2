@@ -82,6 +82,8 @@ margin-bottom: -210px;
 @media screen and (min-width: 500px) {
 
 }
+@media screen and (max-width: 1366px){}
+@media screen and (max-height: 768px){}
 @media screen and (min-width: 900px)
 {}
 
