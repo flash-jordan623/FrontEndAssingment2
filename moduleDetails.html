@@ -7,8 +7,10 @@
 <link id="pagestyle" rel="stylesheet" type="text/css" href="moduleDetails.css"/>
 
 <!--
-ADD COMMENTS
-FIX INDENTATION -->
+Code implementation for the CSS3 animation in the left hand corner
+of each page.
+Keyframes and internal CSS3 styling used.
+-->
 
 <style>
 div.animation {
@@ -31,142 +33,151 @@ div.animation {
 
 }
 </style>
-</head>
-<body>
-<div class="animation"></div>
 
-  <div class="Title">
+</head>
+
+
+<body>
+<div class="animation"></div> <!-- DIV class for adding animation element -->
+
+<div class="Title">
   <h2> CTEC3905 </h2>
   <h1>MODULE DETAILS</h1>
-    </div>
+</div>
 
-  <div id="navbars">
+<!-- Navigation bar code to sit aligned at the top of the page -->
+<div id="navbars">
     <div class="navbar" id="nav">
-    <a href="index.html">Homepage</a>
-    <a class="active" href="moduleDetails.html">Module details</a>
-    <a href="assessments.html">Assessments</a>
-    <a href="policy.html">University Policy</a>
-  </div>
-  </div>
-
-    <div id="Logo">
-      <img class ="img" src="http://ecoconsulting.co.uk/images/html-css-js.png" alt="html css3 and java image">
+      <a href="index.html">Homepage</a>
+      <a class="active" href="moduleDetails.html">Module details</a>
+      <a href="assessments.html">Assessments</a>
+      <a href="policy.html">University Policy</a>
     </div>
-
-<div id="flex1">
-
-<div id="modcalender">
-  <table>
-    <tr>
-      <th>Week</th>
-      <th>Date</th>
-      <th>Lecture</th>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2nd October</td>
-      <td>Introduction & History of HTML</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>9th October</td>
-      <td>History of CSS</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>16th October</td>
-      <td>Javascript ES6</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>24th October</td>
-      <td>Design & Information Architecture</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>31st October</td>
-      <td>Future of Web & Javascript</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>--</td>
-      <td>ENHANCEMENT WEEK</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>14th November</td>
-      <td>Web animations</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>21st November</td>
-    <td>  JavaScript, APIs & JSON</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>28th November</td>
-      <td>Wireframes & Neat code</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>5th December</td>
-      <td>Website Dos & Donts</td>
-    </tr>
-  </table>
-
 </div>
 
+<div id="Logo">
+  <img class ="img" src="http://ecoconsulting.co.uk/images/html-css-js.png" alt="html css3 and java image">
 </div>
-<div id="lectures">
+
+<div id="flex1"> <!-- CSS flex box container -->
+
+<!-- Table element for the module calender -->
+  <div id="modcalender">
+    <table>
+      <tr>
+        <th>Week</th>
+        <th>Date</th>
+        <th>Lecture</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2nd October</td>
+        <td>Introduction & History of HTML</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>9th October</td>
+        <td>History of CSS</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>16th October</td>
+        <td>Javascript ES6</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>24th October</td>
+        <td>Design & Information Architecture</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>31st October</td>
+        <td>Future of Web & Javascript</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>--</td>
+        <td>ENHANCEMENT WEEK</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>14th November</td>
+        <td>Web animations</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>21st November</td>
+      <td>  JavaScript, APIs & JSON</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>28th November</td>
+        <td>Wireframes & Neat code</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>5th December</td>
+        <td>Website Dos & Donts</td>
+      </tr>
+    </table>
+  </div>
+
+</div> <!-- end of flex boc -->
+
+<div id="lectures"> <!-- wrap around numerous elements -->
   <div id="locntime">
-  <b>Location:</b> Bede Island 0.05<br>
-  <b>Time:</b> Tuesdays 16:00-18:00
+    <b>Location:</b> Bede Island 0.05<br>
+    <b>Time:</b> Tuesdays 16:00-18:00
+  </div>
+
+  <div id="explanation">
+    Ten 2-hour lectures, every week. <br><br>
+
+    Lectures complement the practical workshops <br>
+    and cover essential technical issues as well as <br>
+    the wider perspectives on front-end web technologies.<br>
+     They also contain carefully-selected links for deeper information.<br>
+    You will learn to make intelligent choices and predict future <br>
+    industry trends in this rapidly-changing and complex field.
+  </div>
+  <div class="border"></div> <!-- Lone DIV element for border on page --->
+
+  <div id="outcomes"> <!-- DIV element to wrap around ordered list -->
+    <div id="subtitle2">
+      By the end of this module, through attendance <br>
+      and participation in workshops, <br>
+      and after successful completion of lab tasks <br>
+      and assignments, students will be able to:
+    </div>
+    <div id="list">
+      <ol>
+          <li> Contextualise and critique the aims and culture
+          <br>driving current web technologies,how these <br>
+          have evolved and what part they play in modern web development.</li>
+
+          <li> Develop a critical understanding of basic design <br>
+           principles, Information Architecture (IA), usability principles <br>
+           and semantic markup, and how these determine navigability, <br>
+           usability and website/webapp structure.</li>
+
+          <li> Demonstrate evidence of a detailed understanding of the<br>
+             current front-end web technologies (HTML, CSS, Javascript),<br>
+              and make intelligent choices regarding their use and context.</li>
+
+          <li> Create a fully standards-compliant, responsive and accessible<br>
+             website using HTML5, CSS3 and Javascript.</li>
+      </ol>
+    </div>
+  </div>
 </div>
 
-<div id="explanation">
-  Ten 2-hour lectures, every week. <br><br>
-
-  Lectures complement the practical workshops <br>
-  and cover essential technical issues as well as <br>
-  the wider perspectives on front-end web technologies.<br>
-   They also contain carefully-selected links for deeper information.<br>
-  You will learn to make intelligent choices and predict future <br>
-  industry trends in this rapidly-changing and complex field.
-</div>
-<div class="border"></div>
-<div id="outcomes">
-  <div id="subtitle2">
-  By the end of this module, through attendance <br>
-  and participation in workshops, <br>
-  and after successful completion of lab tasks <br>
-  and assignments, students will be able to:
-</div>
-<div id="list">
-  <ol>
-  <li> Contextualise and critique the aims and culture
-    <br>driving current web technologies,how these <br>
-    have evolved and what part they play in modern web development.</li>
-
- <li> Develop a critical understanding of basic design <br>
-   principles, Information Architecture (IA), usability principles <br>
-   and semantic markup, and how these determine navigability, <br>
-   usability and website/webapp structure.</li>
-
-  <li> Demonstrate evidence of a detailed understanding of the<br>
-     current front-end web technologies (HTML, CSS, Javascript),<br>
-      and make intelligent choices regarding their use and context.</li>
-
-  <li> Create a fully standards-compliant, responsive and accessible<br>
-     website using HTML5, CSS3 and Javascript.</li>
-</ol>
-</div>
-</div>
-</div>
+<!-- sitemap link -->
 <div class="sitemap">
-<a href="sitemap.html">  sitemap</a>
+  <a href="sitemap.html">  sitemap</a>
 </div>
+
 <div class="copyright">
-©P15187761
+  ©P15187761
 </div>
 
 
