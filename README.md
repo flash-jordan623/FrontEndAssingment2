@@ -1,11 +1,33 @@
 # FrontEndAssingment2
 
 ##The Assignment
+The Assignment consists of creating a website using HTML5,
+CSS3 and JavaScript, incorporating all elements to produce
+a fully functional and architecturally correct site.
 
-##The code
+My Website is simple, clean and professional. Aimed towards
+the actual module handbook itself.
+Easy to navigate, use and understand.
+
+##The Code
+Within the site HTML5 is used for the body with external
+CSS3 files.
+Also included is an internal JavaScript portion.
 
 ##The Design
+Below are some Wireframe sketches used within the initial design phase.
+Overall, the first designs in comparison with the finished site are
+not far off.
+
+//jpg links
 
 ##Issues
+One main issue was the "Module Details" page was not aligned when
+opened on a large desktop monitor rather than on a laptop monitor
+on which it was created.
+However once size restrictions were fully implemented this issue was
+corrected.
 
 ##Extras
+The site includes some CSS3 animations on each page, including the site map.
+JavaScript slideshows are also included on the homepage.

@@ -79,13 +79,10 @@ margin-bottom: -210px;
   background-color: #ddd;
   color: black;
 }
-@media screen and (min-width: 500px) {
-
-}
+@media screen and (min-width: 500px) {}
 @media screen and (max-width: 1366px){}
 @media screen and (max-height: 768px){}
-@media screen and (min-width: 900px)
-{}
+
 
 table {
     font-family: arial, sans-serif;
@@ -93,6 +90,7 @@ table {
     width: 100%;
     margin-top: 70px;
 margin-left: 20px;
+
 }
 
 td, th {
