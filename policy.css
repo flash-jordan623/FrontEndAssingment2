@@ -85,6 +85,19 @@ margin-bottom: -210px;
   flex-wrap: wrap;
   font-size: 16px;
 }
+div.sitemap {
+  margin-top: 90px;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div.copyright {
+  float:right;
+  margin-top: -15px;
+  margin-left: 1200px;
+  font-size: 15px;
+}
 
 #policy h2 {
   margin-top: 210px;

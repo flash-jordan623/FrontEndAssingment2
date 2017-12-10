@@ -115,6 +115,19 @@ tr:nth-child(even) {
   font-size: 20px;
   margin-top: 290px;
 }
+div.sitemap {
+  margin-top: 350px;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div.copyright {
+  float:right;
+  margin-top: -15px;
+  margin-left: 1200px;
+  font-size: 15px;
+}
 
 #outcomes {
   float: right;
