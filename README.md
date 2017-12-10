@@ -23,7 +23,7 @@ in line with the simple and somewhat vintage feel.
 * See 'sketches.jpg' for first designs.
 
 # Issues
-* One main issue was the "Module Details" page was not aligned when
+* One main issue during testing was the "Module Details" page was not aligned when
 opened on a large desktop monitor rather than on a laptop monitor
 on which it was created.
 However once size restrictions were fully implemented this issue was
