@@ -1,0 +1,42 @@
+body {
+  font-family:"Courier New", Courier, monospace;font-size: 20px;
+background-color: #e0e0d1;
+max-width: 1500px;
+max-height: 300px;
+}
+
+
+div.Title {
+  text-align: center;
+margin-top: 120px;
+  font-size: 18px;
+  float: left;
+margin-left: 10px;
+}
+
+
+div.Title h1{
+  margin-top: -40px;
+  font-size: 35px;
+  font-weight: normal;
+  margin-left: 40px;
+  text-align: center;
+}
+
+div.Title h2 {
+  float: left;
+  margin-top: -130px;
+font-size: 40px;
+font-weight: normal;
+margin-left: 40px;
+text-align: center;
+}
+
+img.img {
+  opacity: 0.4;
+  margin-top: -70px;
+  float: right;
+  height: 240px;
+width: 580px;
+
+}
