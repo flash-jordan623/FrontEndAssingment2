@@ -41,6 +41,11 @@ width: 580px;
 
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #contents {
   margin-top: 180px;
 }
