@@ -28,6 +28,7 @@ opened on a large desktop monitor rather than on a laptop monitor
 on which it was created.
 However once size restrictions were fully implemented this issue was
 corrected.
+* See 'alignmentError.jpg'
 
 # Extras
 * The site includes some CSS3 animations on each page, including the site map.
