@@ -32,3 +32,20 @@ corrected.
 # Extras
 * The site includes some CSS3 animations on each page, including the site map.
 * JavaScript slideshows are also included on the homepage.
+
+# References
+
+* The text within the website describing the module, was used from the official
+module handbook for the module assignment, CTEC 3905.
+It can be found here -
+* https://vle.dmu.ac.uk/bbcswebdav/pid-3770058-dt-content-rid-6177683_1/courses/CTEC3905_2018_Y/CTEC3905-module-handbook%286%29.pdf
+
+* Parts of the code for the CSS3 animation was used from W3Schools.
+It can be found here -
+* https://www.w3schools.com/css/css3_animations.asp
+
+* Part of the code for the JavaScript element was used from W3Schools.
+It can be found here -
+* https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+* All accessed 10/12/2017
